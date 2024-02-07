@@ -54,10 +54,10 @@ services:
     image: ghcr.io/paperless-ngx/paperless-ngx:latest
     restart: unless-stopped
     depends_on:
-    networks:
-      paperless: 
       - db
       - broker
+    networks:
+      paperless: 
     ports:
       - "8010:8000"
     volumes:
@@ -90,6 +90,9 @@ services:
 # The default language to use for OCR. Set this to the language most of your
 # documents are written in.
       #PAPERLESS_OCR_LANGUAGE: eng
+
+networks:
+  paperless:
 
 volumes:
   data:
