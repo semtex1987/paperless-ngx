@@ -32,7 +32,7 @@
     "ngx-cookie-service": "^17.0.1",
     "ngx-file-drop": "^16.0.0",
     "ngx-ui-tour-ng-bootstrap": "^14.0.1",
-    "pdfjs-dist": "^3.11.174",
+    "pdfjs-dist": "^4.2.67",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2",
     "uuid": "^9.0.1",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@angular-builders/jest": "17.0.0",
-    "@angular-devkit/build-angular": "~17.0.8",
+    "@angular-devkit/build-angular": "~17.3.9",
     "@angular-eslint/builder": "17.1.1",
     "@angular-eslint/eslint-plugin": "17.1.1",
     "@angular-eslint/eslint-plugin-template": "17.1.1",
